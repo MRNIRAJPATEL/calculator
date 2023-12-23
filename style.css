@@ -1,0 +1,100 @@
+.calculator {
+    margin: 50px auto;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #07a3eb;
+    padding: 20px;
+  }
+
+.input-result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    
+  }
+
+  input {
+    width: 100%;
+  }
+  
+  table {
+    margin: 10px auto;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td {
+    padding: 10px;
+    border: none;
+    text-align: center;
+  }
+  
+  button {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    color: #333;
+    transition: background-color 0.3s ease-in-out;
+    outline: none;
+  }
+
+  button .operation {
+    display: flex;
+    align-items: center;
+  }
+  
+  button.orange {
+    background-color: #fcbf49;
+    color: #fff;
+  }
+  
+  button.red {
+    background-color: #fc5a5a;
+    color: #fff;
+  }
+  
+  button.yellow {
+    background-color: #ffd166;
+    color: #333;
+  }
+  
+  button.green {
+    background-color: #06d6a0;
+    color: #fff;
+  }
+  
+  button.blue {
+    background-color: #144b5d;
+    color: #fff;
+  }
+  
+  button:hover {
+    background-color: #aaa;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:active {
+    background-color: #666;
+  }
+  
+  #result {
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color:#c3bdfb;
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #333;
+  }
+  
